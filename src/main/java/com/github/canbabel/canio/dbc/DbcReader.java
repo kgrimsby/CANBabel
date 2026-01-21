@@ -52,7 +52,7 @@ public class DbcReader {
     private ObjectFactory factory = null;
     private NetworkDefinition network = null;
     private Document document = null;
-    private Bus bus;
+    protected Bus bus;
     private Map<Long, Set<Signal>> muxed = new TreeMap<Long, Set<Signal>>();
     private final Set<LabelDescription> labels = new HashSet<LabelDescription>();
     private final Set<SignalComment> signalComments = new HashSet<SignalComment>();
